@@ -1,0 +1,76 @@
+#container1 {
+  width: 300px;
+  height: 200px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#child-div {
+  width: 50px;
+  height: 50px;
+  background-color: red;
+}
+
+.container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100px;
+  width: 100%;
+  margin: 0;
+  background-color: lightgray;
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  font-size: 24px;
+}
+ul li {
+  color: rgb(23, 23, 23);
+}
+ul li p {
+  font-weight: bold;
+}
+ul li:hover {
+  text-decoration: underline;
+}
+
+#background {
+  width: 7px;
+}
+
+footer {
+  width: 700px;
+  height: 100px;
+}
+
+.message, .failure-message, .warning-message, .success-message {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.success-message {
+  background-color: green;
+}
+
+.warning-message {
+  background-color: yellow;
+}
+
+.failure-message {
+  background-color: red;
+}/*# sourceMappingURL=style.css.map */

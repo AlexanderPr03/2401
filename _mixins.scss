@@ -1,0 +1,6 @@
+// 3) Bucati de cod reutilizabile care pot fi incluse in alti selectori
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

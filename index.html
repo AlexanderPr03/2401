@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style_main.css">
+    <!-- <link rel="stylesheet" href="style_scss.css"> -->
+</head>
+<body>
+    <ul>
+        <li><p>Homepage</p></li>
+        <li><p>About Us</p></li>
+        <li><p>Contact</p></li>
+
+    </ul>
+
+    <div id="background">
+
+    </div>
+
+    <footer>
+
+    </footer>
+
+    <div id="container1">
+
+        <div id="child-div"></div>
+    </div>
+
+    <p class="message">Lorem ipsum dolor sit amet consectetur adipisicing elit. At atque unde assumenda esse consequatur rem quo eos, ipsum animi. Officiis ab eos aliquam, consequuntur aliquid nisi eligendi quo. Laboriosam, quae!</p>
+    <p class="success-message">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem, accusantium modi repudiandae sint natus ea atque, fugit itaque nostrum omnis qui recusandae soluta facilis vel maiores numquam beatae in id.</p>
+    <p class="warning-message">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi fugiat provident sed magnam, modi, consequuntur deleniti et illum expedita perferendis alias cumque exercitationem libero nam veritatis optio. Officia, ducimus facilis!</p>
+    <p class="failure-message">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti voluptatem eaque dolorum sed quod esse voluptate excepturi vel maiores adipisci eligendi perferendis, repudiandae aliquam ex exercitationem totam quam saepe error.</p>
+</body>
+</html>
+
+<style>
+    ul {
+        counter-reset: nrListItem;
+        list-style: none;
+        padding: 0;
+    }
+    li {
+        counter-increment: nrListItem;
+    }
+    li::before {
+        content: counter(nrListItem);
+        margin-left: calc((counter(nrListItem) - 1) * 10px);
+        display: inline-block;
+    }
+</style>
+
+
+
+<!-- 1) REPOZITORIU - Colectia de fisiere a unui proiect + istoricul lor complet -->
+<!-- 2) Commit - O versiune a codului intr-un anumit moment specific de timp -->
+<!-- 3) Branch (ramura) - o linie separata de development -->
+<!-- 4) Merge - combinarea branch-urilor -->
